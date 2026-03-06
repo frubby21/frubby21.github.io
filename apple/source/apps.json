@@ -1,0 +1,75 @@
+{
+  "name": "flobby25's Source",
+  "subtitle": "A source that you'll need!",
+  "description": "Welcome!\n\nThis source lets you find popular apps in one place! No need trying to have billions of sources or .ipa's, come here and install what you need! You can also download all the ipa's from the developer at https://frubby21.github.io/apple/ipa.html",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://frubby21.gihub.io/",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "headerURL": "https://i.imgur.com/nhHq9ly.png",
+  "apps": [
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.kdt.livecontainer",
+      "marketplaceID": "",
+      "developerName": "khanhduytran0",
+      "subtitle": "An app launcher that runs iOS apps without actually installing them!",
+      "localizedDescription": "• LiveContainer is an app launcher (not emulator or hypervisor) that allows you to run iOS apps inside it.\n\n• Allows you to install unlimited apps (3 app/10 app id free developer account limit does not apply here) with only one app & app id. You can also have multiple versions of an app installed with multiple data containers. (Below iOS 26) \n\n• When JIT is available, codesign is entirely bypassed, no need to sign your apps before installing. Otherwise, your app will be signed with the same certificate used by LiveContainer.\n\n\nImportant Notice Regarding Third-Party Builds of LiveContainer\n\nWe have recently noticed the appearance of certain closed-source third-party builds of LiveContainer. Please be aware that all your apps are installed within LiveContainer, which means these third-party builds have full access to your data, including sensitive information such as keychain items and login credentials.\n\nFurthermore, please note that we do not provide any support for issues of these third-party builds.\n\n\nRequirements\niOS/iPadOS 15+\nMultitasking requires iOS/iPadOS 16.0+\nAltStore 2.0+ / SideStore 0.6.0",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/livecontainer_icon.png",
+      "tintColor": "#0584fc",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer.ipa",
+          "size": 4320000,
+          "version": "3.7.2",
+          "buildVersion": "d62aa32",
+          "date": "2026-03-06T17:16:00+00:00",
+          "localizedDescription": "Bug Fixes\nFix an issue where built-in SideStore may freeze on launch (#1158)\nFix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (#1184)\nFix the new Launch App Shortcut does not work below iOS 18 (#1159)\nThe Launch App Shortcut now reports meaningful errors\nFix crash when using external container in multitasking mode\nFix process hangs when debugging multitask private apps\n\nNew Features\nThe \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
+          "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSCameraUsageDescription": "The guest app is requesting for this permission.",
+          "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+          "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
+          "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+          "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
+          "NSHealthUpdateUsageDescription": "The guest app is requesting for this permission.",
+          "NSHomeKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationTemporaryUsageDescriptionDictionary": "The guest app is requesting for this permission.",
+          "NSLocationUsageDescription": "The guest app is requesting for this permission.",
+          "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+          "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
+          "NSMotionUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
+          "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
+          "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
+          "NSRemindersFullAccessUsageDescription": "The guest app is requesting for this permission.",
+          "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
+          "NSSiriUsageDescription": "The guest app is requesting for this permission.",
+          "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
+          "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
