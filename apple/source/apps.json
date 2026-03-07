@@ -14,6 +14,37 @@
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
+      "name": "Amethyst",
+      "bundleIdentifier": "org.angelauramc.amethyst",
+      "marketplaceID": "",
+      "developerName": "AngelAuraMC",
+      "subtitle": "Amethyst is a Minecraft: Java Edition launcher for Android, iOS, and iPadOS, based off of zhuowei's Boardwalk project.",
+      "localizedDescription": "Requirements\nAt the minimum, you'll need one of the following devices on iOS 14.0 and later:\n\niPhone 6s and later\niPad (5th generation) and later\niPad Air (2nd generation) and later\niPad mini (4th generation) and later\niPad Pro (all models)\niPod touch (7th generation)\n\nHowever, we recommend one of the following devices on iOS 14.0 and later:\n\niPhone XS and later, excluding iPhone XR and iPhone SE (2nd generation)\niPad (10th generation) and later\niPad Air (4th generation) and later\niPad mini (6th generation) and later\niPad Pro (all models, except for 9.7-inch)\n\nRecommended devices provide a smoother and more enjoyable gameplay experience compared to other supported devices.\n\nEnabling JIT\n\nAmethyst makes use of just-in-time compilation, or JIT, to provide usable speeds for the end user. JIT is not supported on iOS without the application being debugged, so workarounds are required to enable it.",
+      "iconURL": "https://raw.githubusercontent.com/frubby21/flobbysource/refs/heads/main/appimg/AngelAuraAmethyst.png",
+      "tintColor": "#c5399c",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/frubby21/flobbysource/raw/refs/heads/main/apps/ready/org.angelauramc.amethyst-1.0-ios.ipa",
+          "size": 150800000,
+          "version": "1.0.0",
+          "buildVersion": "287e821",
+          "date": "2026-03-07T12:24:00+00:00",
+          "localizedDescription": "Fix: crash when user has no account, mitigate crash when presenting Details too fast",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Angel Aura Amethyst uses the local network to find and communicate with AltServer and LAN servers.",
+          "NSMicrophoneUsageDescription": "Angel Aura Amethyst uses the microphone to enable support for voice chat mods."
+        }
+      },
+      "patreon": {}
+    },
+    {
       "name": "SideStore",
       "bundleIdentifier": "com.SideStore.SideStore",
       "marketplaceID": "",
