@@ -10,24 +10,56 @@
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
+      "name": "StikDebug",
+      "bundleIdentifier": "com.stik.stikdebug",
+      "marketplaceID": "",
+      "developerName": "StephenDev0",
+      "subtitle": "n on-device debugger/JIT enabler for iOS versions 17.4+ powered by idevice.",
+      "localizedDescription": "Features\n\nJIT: Enable Just In Time compilation for sideloaded apps that have the get-task-allow entitlement.\nApp Launching: Launch every app installed on your device.\nConsole: Live app and system logs.\nScripts: Manage automation scripts (mainly used for iOS 26 JIT).\nApp Expiry: See when apps will expire and install/remove profiles.\nDevice Info: View detailed device metadata.\nProcesses: Inspect running apps/processes and terminate them.\nLocation Simulator: Simulate the GPS location of your device.\n\nRequirements\n\nStikDebug installed (via AltSource, direct .ipa, or self-built)\nA valid pairing file (.plist / .mobiledevicepairing) for your device\nSideStore / AltStore / similar sideload tool (for app refreshing)\nA loopback VPN such as LocalDevVPN",
+      "iconURL": "https://raw.githubusercontent.com/frubby21/flobbysource/refs/heads/main/appimg/StikDebug.png",
+      "tintColor": "#24ccfc",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+          "size": 9970000,
+          "version": "3.0.0",
+          "buildVersion": "1bdf72a",
+          "date": "2026-03-07T11:40:00+00:00",
+          "localizedDescription": "Known Issue: This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\n\nInterface Rework: Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. (#328 by @StephenDev0)\nBackground Support: Added background audio and location persistence capabilities. (#328 by @StephenDev0)\nApp Expiry Tab: Turned the Profiles tab into the new App Expiry tab. (16f6615 by @hugeBlack)\n\nDeprecations & Removals\n\nMinitool Removal: Removed the minitool utility as it is outdated and no longer useful. (e9d9f35 by @hugeBlack)",
+          "minOSVersion": "17.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "StikDebug needs access to devices on your local network so it can connect to the targets you add to the Device Library.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "StikDebug uses location to stay running in the background and maintain your JIT connection.",
+          "NSLocationWhenInUseUsageDescription": "StikDebug uses location to stay running in the background and maintain your JIT connection."
+        }
+      },
+      "patreon": {}
+    },
+    {
       "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "marketplaceID": "",
       "developerName": "khanhduytran0",
       "subtitle": "An app launcher that runs iOS apps without actually installing them!",
       "localizedDescription": "• LiveContainer is an app launcher (not emulator or hypervisor) that allows you to run iOS apps inside it.\n\n• Allows you to install unlimited apps (3 app/10 app id free developer account limit does not apply here) with only one app & app id. You can also have multiple versions of an app installed with multiple data containers. (Below iOS 26) \n\n• When JIT is available, codesign is entirely bypassed, no need to sign your apps before installing. Otherwise, your app will be signed with the same certificate used by LiveContainer.\n\n\nImportant Notice Regarding Third-Party Builds of LiveContainer\n\nWe have recently noticed the appearance of certain closed-source third-party builds of LiveContainer. Please be aware that all your apps are installed within LiveContainer, which means these third-party builds have full access to your data, including sensitive information such as keychain items and login credentials.\n\nFurthermore, please note that we do not provide any support for issues of these third-party builds.\n\n\nRequirements\niOS/iPadOS 15+\nMultitasking requires iOS/iPadOS 16.0+\nAltStore 2.0+ / SideStore 0.6.0",
-      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/screenshots/livecontainer_icon.png",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/screenshots/livecontainer_icon.png",
       "tintColor": "#0584fc",
       "category": "utilities",
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer.ipa",
-          "size": 4320000,
           "version": "3.7.2",
-          "buildVersion": "d62aa32",
           "date": "2026-03-06T17:16:00+00:00",
           "localizedDescription": "Bug Fixes\nFix an issue where built-in SideStore may freeze on launch (#1158)\nFix the ipa of another LiveContainer not generating in LiveContainer+SideStore builds after SideStore's massive codebase change (#1184)\nFix the new Launch App Shortcut does not work below iOS 18 (#1159)\nThe Launch App Shortcut now reports meaningful errors\nFix crash when using external container in multitasking mode\nFix process hangs when debugging multitask private apps\n\nNew Features\nThe \"Tap top of the view to scroll to top\" action can be passed through to multitasking guest apps.",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer.ipa",
+          "size": 4320000,
+          "buildVersion": "d62aa32",
           "minOSVersion": "15.0"
         }
       ],
